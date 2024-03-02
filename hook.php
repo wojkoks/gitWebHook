@@ -1,5 +1,5 @@
 <?php
 if($_GET["pass"] == "haslo1") {
-    shell_exec("git pull; echo test >> test.txt");
+    shell_exec("echo siema2 >> test.txt; git pull");
 }
 ?>
